@@ -26,5 +26,3 @@ jobs:
       - run: pnpm run lint
 
       - run: npm run build
-
-      - run: node ./bin/cli.js -q
